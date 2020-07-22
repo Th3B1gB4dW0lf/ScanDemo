@@ -16,7 +16,7 @@ namespace ScanDemo
         {
             InitializeComponent();
 
-            AppCenter.Start("ios=9813026e-ea39-4951-8ca7-e93cc3f2dc47;", typeof(Analytics), typeof(Crashes));
+            //AppCenter.Start("ios=9813026e-ea39-4951-8ca7-e93cc3f2dc47;", typeof(Analytics), typeof(Crashes));
 
             DependencyService.Register<MockDataStore>();
             MainPage = new MainPage();
